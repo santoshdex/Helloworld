@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::urandomfix OracleLinux on operatingsystem OracleLinux" tests="3" time="0.032252" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:23+01:00">
+  <testcase name="jdk7::urandomfix OracleLinux on operatingsystem OracleLinux should contain Exec[set urandom /etc/sysconfig/rngd] with user =&gt; &quot;root&quot;" time="0.026062">
+  </testcase>
+  <testcase name="jdk7::urandomfix OracleLinux on operatingsystem OracleLinux should contain Service[rngd] with ensure =&gt; &quot;running&quot; and enable =&gt; true" time="0.002548">
+  </testcase>
+  <testcase name="jdk7::urandomfix OracleLinux on operatingsystem OracleLinux should contain Exec[chkconfig rngd] with user =&gt; &quot;root&quot; and command =&gt; &quot;chkconfig --add rngd&quot;" time="0.002592">
+  </testcase>
+</testsuite>

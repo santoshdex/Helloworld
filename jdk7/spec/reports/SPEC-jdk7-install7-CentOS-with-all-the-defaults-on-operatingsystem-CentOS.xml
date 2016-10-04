@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS" tests="5" time="1.109649" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:23+01:00">
+  <testcase name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS should contain Exec[create /install directory] with command =&gt; &quot;mkdir -p /install&quot;, unless =&gt; &quot;test -d /install&quot; and user =&gt; &quot;root&quot;" time="0.406676">
+  </testcase>
+  <testcase name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS should contain File[/install] that requires Exec[create /install directory]" time="0.664192">
+  </testcase>
+  <testcase name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS should contain File[/install/jdk-7u79-linux-x64.tar.gz] that requires File[/install]" time="0.009844">
+  </testcase>
+  <testcase name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS should contain Jdk7::Config::Javaexec[jdkexec JDK7 7u79] that requires File[/install/jdk-7u79-linux-x64.tar.gz]" time="0.022561">
+  </testcase>
+  <testcase name="jdk7::install7 CentOS with all the defaults on operatingsystem CentOS should contain Exec[set urandom jdk1.7.0_79] with command =&gt; &quot;sed -i -e's/^securerandom.source=.*/securerandom.source=file:\\/dev\\/.\\/urandom/g' /usr/java/jdk1.7.0_79/jre/lib/security/java.security&quot;, unless =&gt; &quot;grep '^securerandom.source=file:/dev/./urandom' /usr/java/jdk1.7.0_79/jre/lib/security/java.security&quot; and user =&gt; &quot;root&quot;" time="0.004189">
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::install7 SunOS" tests="1" time="0.037344" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:23+01:00">
+  <testcase name="jdk7::install7 SunOS should raise Puppet::Error with message matching /Unrecognized operating system SunOS, please use it on a Linux host/" time="0.036818">
+  </testcase>
+</testsuite>

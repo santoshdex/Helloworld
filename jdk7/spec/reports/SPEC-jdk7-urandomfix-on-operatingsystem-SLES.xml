@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::urandomfix on operatingsystem SLES" tests="2" time="0.00643" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:23+01:00">
+  <testcase name="jdk7::urandomfix on operatingsystem SLES should contain Exec[set urandom /etc/default/rng-tools] with user =&gt; &quot;root&quot;" time="0.002824">
+  </testcase>
+  <testcase name="jdk7::urandomfix on operatingsystem SLES should contain Service[rng-tools] with ensure =&gt; &quot;running&quot; and enable =&gt; true" time="0.00284">
+  </testcase>
+</testsuite>

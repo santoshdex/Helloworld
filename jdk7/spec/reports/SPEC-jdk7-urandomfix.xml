@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::urandomfix" tests="1" time="1.796049" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:21+01:00">
+  <testcase name="jdk7::urandomfix should contain Package[rng-tools] with ensure =&gt; &quot;present&quot;" time="1.795727">
+  </testcase>
+</testsuite>

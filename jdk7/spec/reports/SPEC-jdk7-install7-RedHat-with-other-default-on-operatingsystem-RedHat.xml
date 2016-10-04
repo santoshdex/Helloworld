@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::install7 RedHat with other default on operatingsystem RedHat" tests="7" time="0.228769" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:24+01:00">
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain Exec[create /tmp/install directory] with command =&gt; &quot;mkdir -p /tmp/install&quot;, unless =&gt; &quot;test -d /tmp/install&quot; and user =&gt; &quot;root&quot;" time="0.156418">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain File[/tmp/install] that requires Exec[create /tmp/install directory]" time="0.005809">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain File[/tmp/install/jdk-7u51-linux-i586.tar.gz] that requires File[/tmp/install]" time="0.012369">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain Jdk7::Config::Javaexec[jdkexec JDK7 7u51] that requires File[/tmp/install/jdk-7u51-linux-i586.tar.gz]" time="0.016115">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain File[/tmp/install/UnlimitedJCEPolicyJDK7.zip] that comes before File[/tmp/install/jdk-7u51-linux-i586.tar.gz]" time="0.027687">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain Exec[sleep 3 sec for urandomJavaFix jdk1.7.0_51] with command =&gt; &quot;/bin/sleep 3&quot;, unless =&gt; &quot;grep 'RSA keySize &lt; 512' /usr/java/jdk1.7.0_51/jre/lib/security/java.security&quot; and user =&gt; &quot;root&quot;" time="0.003192">
+  </testcase>
+  <testcase name="jdk7::install7 RedHat with other default on operatingsystem RedHat should contain Exec[set RSA keySize jdk1.7.0_51] that subscribes to Exec[sleep 3 sec for urandomJavaFix jdk1.7.0_51]" time="0.004374">
+  </testcase>
+</testsuite>

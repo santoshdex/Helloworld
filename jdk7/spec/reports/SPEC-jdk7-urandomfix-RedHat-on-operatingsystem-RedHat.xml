@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdk7::urandomfix RedHat on operatingsystem RedHat" tests="3" time="0.074629" failures="0" errors="0" skipped="0" timestamp="2016-02-11T19:14:23+01:00">
+  <testcase name="jdk7::urandomfix RedHat on operatingsystem RedHat should contain Exec[set urandom /lib/systemd/system/rngd.service] with user =&gt; &quot;root&quot;" time="0.066846">
+  </testcase>
+  <testcase name="jdk7::urandomfix RedHat on operatingsystem RedHat should contain Exec[systemctl-daemon-reload] with command =&gt; &quot;systemctl --system daemon-reload&quot;" time="0.003271">
+  </testcase>
+  <testcase name="jdk7::urandomfix RedHat on operatingsystem RedHat should contain Service[rngd] with ensure =&gt; &quot;running&quot; and enable =&gt; true" time="0.003402">
+  </testcase>
+</testsuite>
